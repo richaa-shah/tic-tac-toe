@@ -1,4 +1,22 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
+.square {
+  background: white;
+  border: 1px solid gray;
+  float: left;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  width: 80px;
+  height: 80px;
+  text-align: centre;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 80px;
+}
+.square:focus {
+  outline: none;
+}
+.border-row:after {
+  clear: both;
+  content: "";
+  display: table;
 }

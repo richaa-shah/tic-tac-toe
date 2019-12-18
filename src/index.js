@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
+import { Square } from "Components/Square";
 import "./styles.css";
 
 function App() {
