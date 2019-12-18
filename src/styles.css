@@ -29,3 +29,12 @@
   flex-direction: row;
   margin: 0 auto;
 }
+ul {
+  padding-left: 30px;
+}
+.gameInfo {
+  margin-left: 20px;
+}
+.status {
+  margin-bottom: 10px
+}
